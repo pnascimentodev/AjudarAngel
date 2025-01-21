@@ -1,0 +1,26 @@
+# Ignorar dependências instaladas
+node_modules/
+
+# Ignorar arquivos de configuração sensíveis
+.env
+
+# Logs e cache
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+/logs
+*.cache
+
+# Dependências locais
+/.pnp
+.pnp.js
+
+# Arquivos de ambiente de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Pastas geradas pela build
+dist/
+build/
