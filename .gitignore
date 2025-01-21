@@ -24,3 +24,4 @@ Thumbs.db
 # Pastas geradas pela build
 dist/
 build/
+.vercel
